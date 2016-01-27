@@ -1,0 +1,414 @@
+<!DOCTYPE HTML>
+<html>
+<head id="Head1"><meta http-equiv="Content-Type" content="text/html; charset=utf-8" /><title>
+	Z8 Billings UI - Step 01 - Main
+</title><link rel="stylesheet" type="text/css" href="/Assets/css/cssreset-min.css" /><link rel="stylesheet" type="text/css" href="/Assets/css/z8games_style2.css" /><link rel="stylesheet" type="text/css" href="/Assets/css/styles2.css" /><link rel="stylesheet" href="/Assets/css/normalize.css" /><link rel="stylesheet" href="/Assets/css/main.css" />
+<script type="text/javascript" src="/Assets/js/jquery-1.9.1.min.js"></script>
+<script type="text/javascript" src="/Assets/js/scripts.js"></script>
+<script type="text/javascript" src="/Assets/js/billing_script.js"></script>
+<script src="/Assets/js/vendor/modernizr-2.8.3.min.js"></script>
+
+<!-- Global Z8Games Scripts [Start] -->
+<script type="text/javascript" src="/assets/js/menu.js"></script>
+</head>
+<body class="en">
+<form name="form1" method="post" action="purchasezp2.aspx?site=sa&amp;location=w" id="form1">
+<div>
+<input type="hidden" name="__EVENTTARGET" id="__EVENTTARGET" value="" />
+<input type="hidden" name="__EVENTARGUMENT" id="__EVENTARGUMENT" value="" />
+<input type="hidden" name="__LASTFOCUS" id="__LASTFOCUS" value="" />
+<input type="hidden" name="__VIEWSTATE" id="__VIEWSTATE" value="/wEPDwUKMjEzMDU2NTAxNw9kFgICAw9kFgJmDxBkDxYBZhYBEAUGQnJhemlsBQJCUmcWAWZkZBYKby2ZiNEjlYJZfpoWvhaVd8vO" />
+</div>
+
+<script type="text/javascript">
+//<![CDATA[
+var theForm = document.forms['form1'];
+if (!theForm) {
+    theForm = document.form1;
+}
+function __doPostBack(eventTarget, eventArgument) {
+    if (!theForm.onsubmit || (theForm.onsubmit() != false)) {
+        theForm.__EVENTTARGET.value = eventTarget;
+        theForm.__EVENTARGUMENT.value = eventArgument;
+        theForm.submit();
+    }
+}
+//]]>
+</script>
+
+
+<div>
+
+	<input type="hidden" name="__EVENTVALIDATION" id="__EVENTVALIDATION" value="/wEWAwKC3pbgBwL6+brHBgKklti3Cv3uFRwdnH1SReSiRajs8A2QzvEz" />
+</div>
+<input type="hidden" id="hd_SiteCode" value="2" />
+<input type="hidden" id="hd_CountryCodeByGeoIP" value="US" />
+<input type="hidden" id="hd_UserLevelFlag" value="0" />
+<input type="hidden" id="hd_buyasgift" value="PRESENTEAR" />
+<input type="hidden" id="hd_buynow" value="COMPRAR" />
+<input type="hidden" id="hd_portalflag" value="iframe" />
+<input type="hidden" id="hd_limitlevel" value="
+Seu Soldado está ansioso pela próxima patente!
+Sua conta não possui o nível mínimo pedido para fazer um depósito.
+Para realizar o depósito, seu personagem precisa ser no mínimo nível 6 no CrossFire ou nível 21 ou Metin 2." />
+<!-- Billing UI -->
+<div id="wrapper">
+	<div id="header"></div> 
+	<div id="content">
+		<div id="col-right">
+			<div class="z8-points">
+				<div class="top">
+					<h2 class="z8-points-header">Meu Saldo ZP</h2>
+				</div>
+				<div class="main">
+					<div class="content">
+						<table class="my-z8-points">
+							<tbody>
+								<tr>
+									<td class="points-type">
+										<div id="zp-label">Saldo ZP</div>
+									</td>
+									<td class="points-available">
+										<div id="zp-points">323 ZP</div>
+									</td>
+								</tr>
+							</tbody>
+						</table>
+					</div>
+				</div>
+				<div class="bottom"></div>
+			</div>
+			<div class="zp-promo" >
+				<a class="btn-banner">
+					<span class="free-zp-header" >Receba ZP Grátis</span><br/>
+					<span class="banner-text" >Participe de pesquisas Online e receba<strong class="dark-orange">&nbsp;ZP GRATUITAMENTE</strong></span>
+				</a>
+			</div>
+			<div class="zp-info">
+                <div class="top"></div>
+				<div class="main">
+					<div id="faq-container" class="content">
+						<h5>O que são Z8Games Points (ZPoints)?</h5>
+						<p>Z8Games Points ou "ZPoints" (ZP) é a forma de moeda digital do portal Z8Games. ZP pode ser usado para comprar itens e acessórios em todos os jogos da Z8Games. Esses itens incluem novas roupas e acessórios para os seus personagens, além de itens funcionais que aumentam as habilidades dos seus personagens. Comprar ZP é uma ótima forma de aumentar sua experiência com os jogos da Z8Games. Z8Games Points (ZP) não têm valor real de mercado e só podem ser utilizados para itens de jogos virtuais diretamente da Z8games.</p>
+					</div>
+				</div>
+				<div class="bottom"></div>
+			</div>
+		</div>
+		
+        <div id="col-left">
+			<div class="top">
+				<img class="page-header" src="/Assets/images/deposit_header_sa.png" alt="Desposit">
+				<a id="what-is-zp" href="javascript:void(0)">O que significa ZP?</a>
+            </div>
+			<div id="div_main" class="main">
+				<div id="zp-box-info">
+					<div id="zp-info-tab">O que significa ZP??</div>
+					<div id="zp-info-content">
+						<h6>O que são Z8Games Points (ZPoints)?</h6>
+						<p>Z8Games Points ou "ZPoints" (ZP) é a forma de moeda digital do portal Z8Games. ZP pode ser usado para comprar itens e acessórios em todos os jogos da Z8Games. Esses itens incluem novas roupas e acessórios para os seus personagens, além de itens funcionais que aumentam as habilidades dos seus personagens. Comprar ZP é uma ótima forma de aumentar sua experiência com os jogos da Z8Games. Z8Games Points (ZP) não têm valor real de mercado e só podem ser utilizados para itens de jogos virtuais diretamente da Z8games.</p>
+					</div>
+					<div class="clr"></div>
+				</div>
+                <div id="step1_content">
+					<!-- Step 01 Choose a payment method -->
+					<div id="select-payment-option">
+						<h2>Selecione a Opção de Pagamento</h2>
+					</div>
+					<div class="select-payment-option">
+						<div id="select-country-option"><h6>Selecione o País</h6> 
+							<select name="ddl_Country" onchange="javascript:setTimeout('__doPostBack(\'ddl_Country\',\'\')', 0)" id="ddl_Country" name="country-select">
+	<option selected="selected" value="BR">Brazil</option>
+
+</select>
+                        </div>
+
+						<div id="payment-methods">
+							<div id="payment-01" class="credit-card pg-section">
+								<h5 class="cc">Boleto Bancário</h5>
+								<ul id="pg-01" class="pg-list"> 
+								</ul>
+								<!-- click for more//click for less links -->
+								<div class="link-more">
+									<span class="text-container">
+										<span class="text">Clique para mais</span>
+									</span>
+								</div>
+								<div class="link-less">
+									<span class="text-container">
+										<span class="text">Mostrar menos</span>
+									</span>
+								</div>
+							</div>
+                              
+							<div id="payment-02" class="e-wallet pg-section">
+								<h5 class="ew">E-Wallet</h5>
+								<ul id="pg-02" class="pg-list"> 
+								</ul>
+								<!-- click for more//click for less links -->
+								<div class="link-more">
+									<span class="text-container">
+										<span class="text">Clique para mais</span>
+									</span>
+								</div>
+								<div class="link-less">
+									<span class="text-container">
+										<span class="text">Mostrar menos</span>
+									</span>
+								</div>
+							</div> 
+							<div id="payment-03" class="prepaid-card pg-section">
+								<h5 class="pc">Cartão Pré-Pago</h5>
+								<ul id="pg-03" class="pg-list"> 
+								</ul>
+								<!-- click for more//click for less links -->
+								<div class="link-more">
+									<span class="text-container">
+										<span class="text">Clique para mais</span>
+									</span>
+								</div>
+								<div class="link-less">
+									<span class="text-container">
+										<span class="text">Mostrar menos</span>
+									</span>
+								</div>
+							</div>
+                            <div class="clr"></div>
+
+							<div id="payment-04" class="rixty-credit pg-section">
+								<h5 class="rcc">Cartão de Crédito</h5>
+								<ul id="pg-04" class="pg-list"> 
+								</ul>
+								<!-- click for more//click for less links -->
+								<div class="link-more">
+									<span class="text-container">
+										<span class="text">Clique para mais</span>
+									</span>
+								</div>
+								<div class="link-less">
+									<span class="text-container">
+										<span class="text">Mostrar menos</span>
+									</span>
+								</div>
+							</div>
+
+                            <div id="payment-05" class="rixty-bank pg-section">
+								<h5 class="rbank">Transferência Bancária</h5>
+								<ul id="pg-05" class="pg-list"> 
+								</ul>
+								<!-- click for more//click for less links -->
+								<div class="link-more">
+									<span class="text-container">
+										<span class="text">Clique para mais</span>
+									</span>
+								</div>
+								<div class="link-less">
+									<span class="text-container">
+										<span class="text">Mostrar menos</span>
+									</span>
+								</div>
+							</div>
+
+							<div id="payment-06" class="e-pin pg-section">
+								<h5 class="gc">Cartão de Presente</h5>
+								<ul id="pg-06" class="pg-list"> 
+								</ul>
+								<!-- click for more//click for less links -->
+								<div class="link-more">
+									<span class="text-container">
+										<span class="text">Clique para mais</span>
+									</span>
+								</div>
+								<div class="link-less">
+									<span class="text-container">
+										<span class="text">Mostrar menos</span>
+									</span>
+								</div>
+							</div>
+                            
+							<div id="payment-07" class="sms pg-section">
+								<h5 class="sm">Celular</h5>
+								<ul id="pg-07" class="pg-list"> 
+								</ul>
+								<!-- click for more//click for less links -->
+								<div class="link-more">
+									<span class="text-container">
+										<span class="text">Clique para mais</span>
+									</span>
+								</div>
+								<div class="link-less">
+									<span class="text-container">
+										<span class="text">Mostrar menos</span>
+									</span>
+								</div>
+							</div> 
+                            
+							<div id="payment-08" class="pay-by-call pg-section no-margin-left">
+								<h5  class="call">Pay-by-Call</h5>
+								<ul id="pg-08" class="pg-list">
+								</ul>
+								<!-- click for more/click for less links -->
+								<div class="link-more">
+									<span class="text-container">
+										<span class="text">Clique para mais</span>
+									</span>
+								</div>
+								<div class="link-less">
+									<span class="text-container">
+										<span class="text">Mostrar menos</span>
+									</span>
+								</div>
+							</div>
+                         	<div class="clr"></div>
+						</div>
+					</div>      
+				</div>
+                <div class="back-to-payment-main" style="display:none;"><a class="breadcrumbs">&lt; Voltar a Pagamentos</a> <!-- This breadcrumb link is used when the user has selected a payment method -->
+                </div>
+                <div id="step2_content" style="display:none;">
+                
+                    <!-- Step 02 Payment Chosen -->
+					<div id="payment-options">
+						<!-- Tab Menu -->
+                        
+						<ul id="payment-menu"><!-- width 653px -->
+							
+						</ul>
+					</div>
+                    
+					<div class="payment-display-box">
+						<h1 class="payment-header" id="PGheader">Karma Koin</h1>
+						<h1 class="zp-points-display"></h1>
+						<span>Caso queira outra forma de pagamento, selecione-a no menu acima</span>
+						<img class="payment-arrow" src="/Assets/images/payment_type_arrow.png" alt="">
+					</div>
+
+                    <!-- PrimeiroPay Paymentbrand select form -->
+                    <!-- hkmin@payletter.com -->
+                    <div id="primeiropayDiv" style="display:none;">
+                     <div id="primeirowrapper">
+                        <div id="primeirocontent">
+                            <p class="instructions">Selecionar meio de pagamento:</p>
+                            <div class="payment-btns">
+                                <a href="#" onclick="fnGoBoleto();"><img src="/Assets/images/boleto.png" /></a>
+                                <a href="#" onclick="fnGoCard();"><img src="/Assets/images/visa.png" /></a>
+                            </div>
+                        </div>
+                    </div>
+                    </div>
+
+                    <!-- normal PG form -->
+					<div id="div_selectamount" class="payment-form" style="display:none;"> 
+						<h3 id="selectamount" style="margin-bottom: 10px;">Selecione a Quantidade &nbsp;&nbsp;&nbsp;<span id="eventtitle"></span></h3>
+						<div id="select-amount-form"> 
+							<table id="price-list" style="">
+							</table>  
+						</div>
+					</div>
+
+                    <!-- E-Pin form -->
+                    <div id="div_epin" class="payment-form" style="text-align:center; display:none; height:300px;"> 
+						<h2 id="h3_epin" style="margin-bottom: 10px;">Please enter your EPIN&nbsp;:&nbsp;<input type="text" maxlength="30" size="30" id="ppcardno" name="ppcardno"  /></h2> 
+                        
+                        <img id="img_btnsubmit" src="/Assets/images/bt_submit_y_RN.png" style="cursor:pointer; margin-top:10px;" /><br/><br/>
+                        <font color="red"><span id="span_epinmsg"></span></font><br/>
+
+					</div>
+
+                    <!-- Confirm message --->
+                    <div id="div_confirmation" style="display: none;" class="payment-confirm">
+						<span id="span_confirm_amount" class="payment-confirm-text">Este valor está correto?</span>
+						<div class="purchase-details" id="purchase-details">
+							
+						</div>
+						<span id="span_confirm_click" class="payment-confirm-text" style=" margin-bottom:0px">Por favor, clique em "Confirmar" para ir à página de compra.</span>	
+                        <div class="back-confirm" style=" margin-top:20px"> 
+							<span id="btn_back" class="gray-button"><span>Voltar</span></span>
+							<span id="btn_confirm" class="blue-button"><span>Confirmar</span></span>
+						</div>
+					</div>
+
+					<!-- GiftPPCard form -->
+					<div id="buy-gift-ign" style="display: none;" >
+						<div class="header">PRESENTEAR</div> 
+						<div class="form-text">Para qual jogo você deseja comprar ZP?</div>
+						<div style=" margin:0px">
+							<select id="select_game" name="select_game"> 
+							<option value="">Selecione o jogo</option>
+							<option value="11">CrossFire</option>
+							<!--<option value="FH">Fishing Hero</option>-->
+							</select>
+						</div>
+						<div id="select-game-error" class="ign-error alert-red" style="display: none;">* Please select your game</div> <!-- rn_selectgameerror -->
+						<div class="form-text">Quem é a pessoa a receber o ZP de presente?</div>
+						<input id="strIGN" class="input-ign" type="text" name="" value="">
+						<div id="ign-error" class="ign-error alert-red" style="display: none;"></div> <!-- rn_ignnonexist -->
+						<span id="btn-back-ign" class="gray-button"><span>Back</span></span>
+						<span id="btn-continue-ign" class="blue-button"><span>Continue</span></span>
+						<!--<script type="text/javascript">
+							var rn_enterign = 'Enter IGN (In Game Name)';
+							var rn_ignnoname = '* Please enter your friend’s IGN(In Game Name)';
+							var rn_ignnonexist = '* Sorry, you have entered an IGN that does not exist. Please try again.';
+						</script>-->
+						<div class="note it" style=" font-size:10px">*Ao completar a transação, o ZP será entregue ao Nome do Soldado inserido acima.</div>
+					</div>
+					
+					<!-- GiftPPCard Confirmation -->
+					<div id="buy-gift-confirmation" style="display: none;">
+						<div class="gift-text">Por favor, verifique o Nome do Soldado e a quantia:</div>
+						<div class="gift-summary"> 
+							<div class="gift-to-line">
+								<span class="gift-header">Enviar presente para:</span>
+								<span id="gift-to">123123</span>
+							</div>
+							<div class="recipient-line">
+								<span class="gift-header">Quantia:</span>
+								<span id="gift-amount">
+								<span class="gift-points"></span>
+								<!--<span class="gift-divider">&nbsp;|&nbsp;</span>
+								<span class="gift-price">US $10</span><input type="hidden" id="gift-to-l" value="EMaly"></span>-->
+							</div>
+						</div>
+						<div class="gift-text">Após verificação, clique em "Confirmar" para prosseguir à página de compra.</div>
+						<span id="btn-back-gift-confirm" class="gray-button"><span>Back</span></span>
+						<span id="btn-confirm-gift" class="blue-button"><span>Confirm</span></span>
+					</div>
+					
+					<!-- Iframe for PG payment -->
+                    <iframe id="IFPayment" style="display:none;border:0px;" align="middle" scrolling="no" src=""></iframe>   
+                    <div id="div_loadingmsg" style="display:none;height:300px;" class="payment-confirm">
+                        
+                        <font size="3">Você está sendo redirecionado ao&nbsp;<span id="span_paymentname1">[]</span> ...</font> 
+                        <img id="img_loading" src="/Assets/images/loading.gif" style=" height:15px" alt="" /><br /><br /><br />
+                        
+                        <!--If the <span id="span_paymentname2">[]</span> window does not appear in 5 seconds, please--> 
+                        Se a janela não aparecer em 5 segundos, por favor, clique&nbsp;
+                        <a target="_blank" id="failedopennewwindow" href=""><font color="#D96F1C"><u>aqui&nbsp;</u></font></a>para continuar.
+					</div>
+                </div>
+				<div class="tip-content"> 
+                	<span class="tip-header">Dica: </span>
+					<span class="tip-text">Uma mensagem de confirmação de que sua transação foi bem sucedida será exibida na compra de Z8Games Points. Por favor, aguarde esta mensagem ser exibida para ter certeza que o seu depósito não está atrasado.</span>
+				</div>
+			</div> 
+		</div>
+	</div>
+	<div id="footer"><div class="clr"></div></div>
+</div>
+</form>
+<!-- Google Statistics Code [START] -->
+<script type="text/javascript">
+    var _gaq = _gaq || [];
+    _gaq.push(['_setAccount', 'UA-34181772-1']);
+    _gaq.push(['_setDomainName', 'z8games.com']);
+    _gaq.push(['_trackPageview']);
+
+    (function() {
+        var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+        ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+        var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+    })();
+</script>
+<!-- Google Statistics Code [END] -->
+</body>
+</html>
